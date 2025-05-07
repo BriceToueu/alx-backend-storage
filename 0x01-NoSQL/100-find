@@ -1,2 +1,2 @@
-// MongoDB script to find documents with name starting with "ALX" in the school collection
-db.school.find({ name: /^ALX/ });
+// Regex filter
+db.school.find({ name: /^Holberton/ });
